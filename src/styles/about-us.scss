@@ -15,15 +15,19 @@
     line-height: 78px;
     color: #fff;
     margin: 0;
+    max-width: 1540px;
+    width: 100%;
 
     @media screen and (max-width: 834px) {
       font-size: 32px;
       line-height: 38px;
+      max-width: 786px;
     }
 
     @media screen and (max-width: 425px) {
       font-size: 24px;
       line-height: 28px;
+      max-width: 343px;
     }
   }
 
