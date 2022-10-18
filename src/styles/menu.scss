@@ -75,6 +75,9 @@
 
   &__nav {
     @media screen and (max-width: 425px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       max-width: 254px;
       width: 100%;
       margin-left: auto;
@@ -122,6 +125,19 @@
     @media screen and (max-width: 425px) {
       font-size: 20px;
       line-height: 24px;
+    }
+  }
+
+  &__text {
+    display: none;
+
+    @media screen and (max-width: 425px) {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #ffbb0d;
+      margin: 0;
     }
   }
 }
